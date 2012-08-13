@@ -1,4 +1,2 @@
-# github make my site not 404
-
-## PLEASE
-I will add actual content, do not you worry.
+# Benjamin Lundquist
+my blog powered by github and Hubticle
