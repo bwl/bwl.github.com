@@ -1,22 +1,19 @@
-# My blog is powered by Hubticle(hubticl.github.com)
-
+#My blog is powered by Hubticle(hubticl.github.com)
 ##Some simple scripts to create/edit posts
 
-####add
+###add
 
 this would create a new post , open it up with an assigned markdown editor and on close , would commit to the git repo and push it online
 
 the *push it online* part can be bypassed by using the `-g` switch
 
 	./new.sh
-	
 
-####edit
+###edit
 
-this would bring up a list of posts in your directory and allow you to select one particular post to open up with an assigned markdown editor and on close, would commit to the git repo and push it online
+this will bring up a list of posts in your directory and allow you to select one particular post to open up with an assigned markdown editor and on close, would commit to the git repo and push it online
 
 the *push it online* part can once again be bypassed using the `-g` switch
-
 
 	./edit.sh
 
@@ -28,7 +25,7 @@ the *push it online* part can once again be bypassed using the `-g` switch
 
 	Edit what? :
 
-####init
+###init
 
 this is useful to make the index of the current `.markdown` files in the directory. So when you want to start using the scripts , it is recommended to use the `init.sh` command first so that the index is created.
 
